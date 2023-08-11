@@ -7,8 +7,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("***** Fun with Arrays *****\n");
-            SimpleArrays();
-            ArrayInitialization();
+            //SimpleArrays();
+            //ArrayInitialization();
+            ArrayOfObjects();
         }
 
         #region Simple Array
@@ -44,6 +45,22 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Array initialization with new keyword and size.
             int[] intArray = new int[4] { 20, 22, 23, 0 };
             Console.WriteLine("intArray has {0} elements", intArray.Length);
+            Console.WriteLine();
+        }
+        #endregion
+
+        #region Array of objects
+        static void ArrayOfObjects()
+        {
+            Console.WriteLine("=> Array of Objects.");
+
+            object[] myObject = new object[4];
+            myObject[0] = 10;
+            myObject[1] = false;
+            myObject[2] = new DateTime(1969, 3, 24);
+            myObject[3] = "Form & Void";
+
+            foreach (object obj in myObject) { Console.WriteLine("Type: {0}, Value: {1}", obj.GetType(), obj); }
             Console.WriteLine();
         }
         #endregion
