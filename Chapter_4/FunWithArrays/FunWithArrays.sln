@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithArrays", "FunWithArrays\FunWithArrays.csproj", "{74B38A7E-6DDC-4365-A72E-7B74504E44E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B38A7E-6DDC-4365-A72E-7B74504E44E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B38A7E-6DDC-4365-A72E-7B74504E44E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B38A7E-6DDC-4365-A72E-7B74504E44E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B38A7E-6DDC-4365-A72E-7B74504E44E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3603D01C-9E2B-42E0-8AC0-60CCAA9AF8B1}
+	EndGlobalSection
+EndGlobal

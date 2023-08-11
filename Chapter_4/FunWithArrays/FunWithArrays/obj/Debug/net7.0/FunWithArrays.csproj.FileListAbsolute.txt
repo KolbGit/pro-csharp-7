@@ -1,0 +1,14 @@
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\bin\Debug\net7.0\FunWithArrays.exe
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\bin\Debug\net7.0\FunWithArrays.deps.json
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\bin\Debug\net7.0\FunWithArrays.runtimeconfig.json
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\bin\Debug\net7.0\FunWithArrays.dll
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\bin\Debug\net7.0\FunWithArrays.pdb
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.AssemblyInfoInputs.cache
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.AssemblyInfo.cs
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.dll
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\refint\FunWithArrays.dll
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.pdb
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\FunWithArrays.genruntimeconfig.cache
+C:\Users\Win 10\Downloads\pro-csharp-7\Chapter_4\FunWithArrays\FunWithArrays\obj\Debug\net7.0\ref\FunWithArrays.dll
