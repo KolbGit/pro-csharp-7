@@ -6,10 +6,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("***** Fun with Arrays *****\n");
+            //Console.WriteLine("***** Fun with Arrays *****\n");
             //SimpleArrays();
             //ArrayInitialization();
-            ArrayOfObjects();
+            //ArrayOfObjects();
+            //MultiArray();
+            JaggedMultidimensionalArray();
         }
 
         #region Simple Array
@@ -61,6 +63,51 @@ namespace MyApp // Note: actual namespace depends on the project name.
             myObject[3] = "Form & Void";
 
             foreach (object obj in myObject) { Console.WriteLine("Type: {0}, Value: {1}", obj.GetType(), obj); }
+            Console.WriteLine();
+        }
+        #endregion
+
+        #region Multi Array Rect
+        static void MultiArray()
+        {
+            Console.WriteLine("=> Rectangular multidimensional array.");
+
+            int[,] myMatrix;
+            myMatrix = new int[3, 4];
+
+            for (int i = 0; i < 3; i++)
+                for (int j = 0; j < 4; j++)
+                    myMatrix[i, j] = i * j;
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                    Console.Write(myMatrix[i, j] + "\t");
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+        }
+        #endregion
+
+        #region Jagged Multi Arra
+        static void JaggedMultidimensionalArray()
+        {
+            Console.WriteLine("=> Jagged multidimensional array:\n");
+            // A jagged MD array (i.e., an array of arrays).
+            // Here we have an array of 5 different arrays.
+            int[][] myJagArray = new int[5][];
+
+            // Create the jagged array.
+            for (int i = 0; i < myJagArray.Length; i++)
+                myJagArray[i] = new int[i + 7];
+
+            // Print each row (remember, each element is defaulted to zero!)
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < myJagArray[i].Length; j++)
+                    Console.Write(myJagArray[i][j] + " ");
+                Console.WriteLine();
+            }
             Console.WriteLine();
         }
         #endregion
